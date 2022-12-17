@@ -18,13 +18,17 @@ button {
   display: block;
   margin: 0 auto;
   border: none;
-  /* background: #a80020; */
   background: #b8f4b8;
   padding: 10px 20px;
   text-transform: uppercase;
   color: rgb(86, 85, 85);
   padding: 15px 25px;
   cursor: pointer;
+}
+
+button:disabled {
+  background: #d2b6ba;
+  cursor: not-allowed;
 }
 
 h1 {
@@ -41,4 +45,9 @@ textarea {
   height: 200px;
   background: #b8f4b8;
   padding: 10px;
+}
+
+textarea:disabled {
+  background: #d2b6ba;
+  cursor: not-allowed;
 }
