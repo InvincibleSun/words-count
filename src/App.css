@@ -36,6 +36,14 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+p:last-child {
+  color: red;
+}
+
 textarea {
   font-family: "Press Start 2P", cursive;
   border: 3px solid rgb(86, 85, 85);
